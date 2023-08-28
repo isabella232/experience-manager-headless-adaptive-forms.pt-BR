@@ -1,0 +1,52 @@
+---
+title: Solução de problemas do Headless Adaptive Forms
+description: Solução de problemas do Headless Adaptive Forms
+keywords: headless, formulário adaptável, solução de problemas
+solution: Experience Manager Forms
+feature: Adaptive Forms
+topic: Headless
+role: Admin, Developer
+level: Beginner, Intermediate
+hide: false
+exl-id: bfb7e688-d2be-4aaa-ac9b-147cbd74b516
+source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
+workflow-type: tm+mt
+source-wordcount: '140'
+ht-degree: 5%
+
+---
+
+# Resolução de problemas
+
+## Não é possível implantar o projeto do Arquétipo no ambiente de desenvolvimento local
+
+### Problema
+
+Quando você usa o `mvn -PautoInstallPackage clean install` Para comandos semelhantes para implantar um projeto do Arquétipo AEM, o projeto não é implantado.
+
+### Motivo
+
+Isso pode ocorrer devido a uma versão não compatível ou instalação corrompida de node.js ou NPM.
+
+### Solução
+
+1. Completamente [remover as instalações atuais do Node.JS](https://khushwantsehgal.wordpress.com/2022/06/28/how-to-remove-node-js-completely-from-windows-10/) do seu ambiente.
+
+1. Instale o Node.JS 16.13.0 ou posterior com NPM.
+
+1. Reinicialize o computador.
+
+
+## A variável `mvn clean install` falha ao executar o comando
+
+### Problema
+
+Quando você usa o `mvn clean install` Para comandos semelhantes para implantar um projeto do Arquétipo AEM, o comando não é executado.
+
+### Motivo
+
+Isso pode acontecer se o Git não estiver instalado.
+
+### Solução
+
+Baixe e instale o [última versão do Git](https://git-scm.com/downloads). Se você é novo no Git, consulte [Instalação do Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).

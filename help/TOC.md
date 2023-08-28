@@ -1,0 +1,46 @@
+---
+user-guide-title: Formulários adaptáveis do Adobe Experience Manager Headless
+breadcrumb-title: Formulários adaptáveis AEM Headless
+user-guide-description: Documentação dos formulários adaptáveis do Adobe Experience Manager Headless
+feature: Adaptive Forms
+role: Developer
+hide: false
+source-git-commit: b1e62aa73d5f442c8d025202f3bad31c0f82a113
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 5%
+
+---
+
+
+# Formulários adaptáveis do Adobe Experience Manager Headless {#using}
+
++ [Visão geral](overview.md)
++ [Arquitetura](architecture.md)
++ Configuração rápida {#quick-setup}
+   + [Ativar o Forms adaptável headless no AEM 6.5 Forms](enable-headless-adaptive-forms-and-core-components.md)
+   + [Ativar o Forms adaptável headless no AEM Forms as a Cloud Service](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md)
++ Tutorial {#tutorial}
+   + [Crie um Forms envolvente usando os Componentes principais e o Forms adaptável headless no AEM Forms as a Cloud Service](build-engaging-forms-using-core-components-and-headless-adaptive-forms-aem-forms-cloud-service.md)
+   + [Criar Forms envolvente usando componentes principais e Forms adaptável headless no AEM 6.5 Forms](build-engaging-forms-using-core-components-and-headless-adaptive-forms-on-aem-65-forms.md)
++ Introdução ao uso do kit inicial{#get-started}
+   + [Criar e publicar um formulário headless usando o kit inicial](create-and-publish-a-headless-form.md)
+   + [Usar uma biblioteca de reação personalizada para renderizar um formulário headless](use-google-material-ui-react-components-to-render-a-headless-form.md)
++ Criar formulários adaptáveis headless {#authoring-headless-adaptive-forms}
+   + [Criar um formulário adaptável headless usando o editor adaptável do Forms](create-a-headless-adaptive-form.md)
++ Referência do desenvolvedor {#developer-reference}
+   + [APIs de formulários adaptáveis headless](https://opensource.adobe.com/aem-forms-af-runtime/api/)
++ [Perguntas frequentes](faq.md)
++ [Resolução de problemas](troubleshooting.md)
++ [Extensão do Microsoft Visual Studio Code para formulários adaptáveis Headless](visual-studio-code-extension-for-headless-adaptive-forms.md)
+
+
+
+<!--
+
+Articles must be added to this TOC file in order to render.
+
+Use this list format to specify links to articles and section headings that expand and collapse in the left rail of the user guide.
+
+An article link CANNOT be used as a section heading.
+-->
