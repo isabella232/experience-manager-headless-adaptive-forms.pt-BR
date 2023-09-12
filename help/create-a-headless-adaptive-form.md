@@ -10,8 +10,8 @@ hide: false
 exl-id: 0214dc2e-52ce-40e9-bef3-f4f4a7ff266f
 source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 49%
+source-wordcount: '1230'
+ht-degree: 65%
 
 ---
 
@@ -61,19 +61,19 @@ Você precisa do seguinte para criar um Formulário adaptável usando o editor F
 
 1. Faça logon no [!DNL Experience Manager Forms] Instância do autor.
 
-1. Insira suas credenciais na página de logon do Experience Manager. Depois de fazer logon, no canto superior esquerdo, toque em **[!UICONTROL Adobe Experience Manager]** > **[!UICONTROL Forms]** > **[!UICONTROL Forms & Documents]**.
+1. Insira suas credenciais na página de logon do Experience Manager. Após fazer logon, e no canto superior esquerdo, toque em **[!UICONTROL Adobe Experience Manager]** > **[!UICONTROL Forms]** > **[!UICONTROL Formulários e documentos]**.
 
-1. Tocar **[!UICONTROL Create]**  > **[!UICONTROL Adaptive Forms]**. O Assistente será aberto. Na guia Origem, selecione um modelo:
+1. Toque em **[!UICONTROL Criar]**  > **[!UICONTROL Formulários adaptáveis]**. O Assistente será aberto. Na guia Origem, selecione um modelo:
 
    ![Modelo](/help/assets/core-components-template.png)
 
-   Ao selecionar um modelo, um tema e uma ação de envio especificados no modelo são selecionados automaticamente e a variável **[!UICONTROL Create]** for ativado. Você pode ir para o **[!UICONTROL Style]** ou **[!UICONTROL Submission]** para selecionar um tema ou uma ação de envio diferente. Se o modelo selecionado não especificar um tema, o botão criar permanecerá desabilitado. Você pode ir para o **[!UICONTROL Styles]** para selecionar um tema manualmente.
+   Ao selecionar um modelo, o tema e a ação de envio especificados no modelo são selecionados automaticamente e o botão **[!UICONTROL Criar]** será habilitado. Você pode ir para as guias **[!UICONTROL Estilo]** ou **[!UICONTROL Envio]** para selecionar um tema ou uma ação de envio diferente. Se o modelo selecionado não especificar um tema, o botão criar permanecerá desabilitado. É possível ir para a guia **[!UICONTROL Estilos]** para selecionar um tema manualmente.
 
-1. No **[!UICONTROL Style]** selecione um tema:
+1. Na guia **[!UICONTROL Estilo]**, selecione um tema:
 
    * Quando o modelo selecionado especifica um tema, ele é selecionado automaticamente no assistente. Você também pode escolher um tema diferente da guia de Estilo.
 
-   * Se o modelo selecionado não especificar um tema, será possível usar a guia de Estilo para escolher um tema. A variável **[!UICONTROL Create]** O botão só é ativado depois que um tema é selecionado.
+   * Se o modelo selecionado não especificar um tema, será possível usar a guia de Estilo para escolher um tema. O botão **[!UICONTROL Criar]** só será ativado depois que um tema for selecionado.
 
 1. (Opcional) Na guia Dados, selecione um modelo de dados:
 
@@ -83,21 +83,21 @@ Você precisa do seguinte para criar um Formulário adaptável usando o editor F
 
    Por padrão, todos os campos do esquema JSON associado são selecionados e convertidos automaticamente nos componentes de Formulários adaptáveis correspondentes, simplificando o processo de criação. O assistente oferece a conveniência adicional de permitir a escolha seletiva de quais campos devem ser incluídos no Formulário adaptável usando caixas de seleção.
 
-1. No **[!UICONTROL Submission]** selecione uma ação de envio:
+1. Na guia **[!UICONTROL Envio]**, selecione uma ação de envio:
 
-   * Ao selecionar um modelo, a ação de envio especificada no modelo é selecionada automaticamente. É possível selecionar uma ação de envio diferente na guia Envio. A variável **[!UICONTROL  Submission]** exibe todas as ações de envio disponíveis.
+   * Ao selecionar um modelo, a ação de envio especificada no modelo é selecionada automaticamente. É possível selecionar uma ação de envio diferente na guia Envio. A guia **[!UICONTROL Envio]** exibe todas as ações de envio disponíveis.
 
-   * Quando o modelo selecionado não especificar uma ação de envio, você poderá usar o **[!UICONTROL Submission]** para selecionar uma ação de envio
+   * Quando o modelo selecionado não especificar uma ação de envio, você poderá usar a guia **[!UICONTROL Envio]** para selecionar uma
 
-1. (Opcional) Na **[!UICONTROL Delivery]** , é possível especificar uma data de publicação ou cancelamento da publicação para um Formulário adaptável.
+1. (Opcional) Na guia **[!UICONTROL Entrega]**, é possível especificar uma data de publicação ou cancelamento da publicação para um Formulário adaptável.
 
-1. Tocar **[!UICONTROL Create]**. Uma caixa de diálogo para especificar o título, o nome e o local para salvar o Formulário adaptável será exibida:
+1. Toque em **[!UICONTROL Criar]**. Uma caixa de diálogo para especificar o título, o nome e o local para salvar o Formulário adaptável será exibida:
 
-   * **[!UICONTROL Title]** Especifica o nome de exibição do formulário. O título ajuda a identificar o formulário na interface do usuário do [!DNL Experience Manager Forms].
-   * **[!UICONTROL Name:]** Especifica o nome do formulário. Um nó com o nome especificado será criado no repositório. Ao começar a digitar um título, o valor do campo de nome é gerado automaticamente. É possível alterar o valor sugerido. O campo de nome pode incluir apenas caracteres alfanuméricos, hifens e sublinhados. Todas as entradas inválidas são substituídas por um hífen.
-   * **[!UICONTROL Path:]** Especifica o local no qual o Formulário adaptável deve ser salvo. É possível salvar o formulário adaptável diretamente em `/content/dam/formsanddocuments` ou criar uma pasta como `/content/dam/formsanddocuments/adaptiveforms` para salvar um Formulário adaptável. Certifique-se de criar a pasta antes de usá-la no caminho. A variável **[!UICONTROL Path]** não cria uma pasta automaticamente.
+   * **[!UICONTROL Título]** especifica o nome de exibição do formulário. O título ajuda a identificar o formulário na interface do usuário do [!DNL Experience Manager Forms].
+   * **[!UICONTROL Nome:]** especifica o nome do formulário. Um nó com o nome especificado será criado no repositório. Ao começar a digitar um título, o valor do campo de nome é gerado automaticamente. É possível alterar o valor sugerido. O campo de nome pode incluir apenas caracteres alfanuméricos, hifens e sublinhados. Todas as entradas inválidas são substituídas por um hífen.
+   * **[!UICONTROL Caminho:]** especifica o local no qual o Formulário adaptável deverá ser salvo. É possível salvar o formulário adaptável diretamente em `/content/dam/formsanddocuments` ou criar uma pasta como `/content/dam/formsanddocuments/adaptiveforms` para salvar um Formulário adaptável. Certifique-se de criar a pasta antes de usá-la no caminho. O campo **[!UICONTROL Caminho]** não cria uma pasta automaticamente.
 
-1. Tocar **[!UICONTROL Create]**. Um Formulário adaptável será criado e aberto no editor de Formulários adaptáveis. O editor exibirá o conteúdo disponível no modelo.  Com base no tipo de Formulário adaptável, os elementos de formulário presentes no <!--XFA form template, XML schema or --> O esquema JSON ou o modelo de dados de formulário são exibidos no **[!UICONTROL Data Model Objects]** guia do **[!UICONTROL Content Browser]** na barra lateral. Também é possível arrastar e soltar esses elementos para criar seu formulário adaptável.
+1. Toque em **[!UICONTROL Criar]**. Um Formulário adaptável será criado e aberto no editor de Formulários adaptáveis. O editor exibirá o conteúdo disponível no modelo.  Com base no tipo de formulário adaptável, os elementos de formulário presentes no esquema JSON <!--XFA form template, XML schema or --> associado ou no modelo de dados de formulário são exibidos na guia **[!UICONTROL Objetos do modelo de dados]** do **[!UICONTROL Navegador de conteúdo]** na barra lateral. Também é possível arrastar e soltar esses elementos para criar seu formulário adaptável.
 
 Agora, você pode arrastar e soltar os componentes do Adaptive Forms no contêiner do Adaptive Forms para criar o formulário.
 
