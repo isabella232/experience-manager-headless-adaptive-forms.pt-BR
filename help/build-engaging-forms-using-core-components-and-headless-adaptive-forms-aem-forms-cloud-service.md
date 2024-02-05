@@ -4,17 +4,15 @@ seo-title: Build Engaging Forms Using Core Components and Headless
 description: Crie formulários envolventes usando componentes principais e a tecnologia headless
 seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
-hide: true
-hidefromtoc: true
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
-source-git-commit: 2332af82ea221086c3b014989651e34726040ba2
+source-git-commit: 428416d61f236396449d26df208bf284a1ad162f
 workflow-type: tm+mt
-source-wordcount: '2480'
-ht-degree: 90%
+source-wordcount: '2452'
+ht-degree: 86%
 
 ---
 
-# Crie formulários envolventes usando componentes principais e a tecnologia headless Forms adaptável no AEM Forms as a Cloud Service {#build-engaging-forms-using-core-components-and-headless}
+# Crie um Forms envolvente usando os Componentes principais e o Forms adaptável headless no AEM Forms as a Cloud Service {#build-engaging-forms-using-core-components-and-headless}
 
 ## Visão geral do laboratório {#lab-overview}
 
@@ -36,7 +34,7 @@ Para usar estas mãos no laboratório:
 
 * Instale o [última versão do Git](https://git-scm.com/downloads). Se você é novo no Git, consulte [Instalação do Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-* Instalar [Node.js 16.13.0 ou posterior](https://nodejs.org/en/download/). Se você é novo no Node.js, consulte [Como instalar o Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
+* Instalar [Node.js 16.13.0 ou posterior](https://nodejs.org/en/download/). Se você é novo no Node.js, consulte [Como instalar o Node.js](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs).
 
 * [Ativar os Componentes principais adaptáveis do Forms](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) para seu ambiente as a Cloud Service do AEM Forms.
 
@@ -60,14 +58,15 @@ Nesta lição, você poderá se familiarizar com o AEM Forms as a Cloud Service 
    [https://author-p105303-e986623.adobeaemcloud.com/ui#/aem/aem/start.html](https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/start.html)
 
 1. Faça logon no ambiente de autor do Cloud Service.
+   ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
 
 1. Para navegar até a interface do AEM Forms, clique em **Forms > Forms e documentos**.
 
-   ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
+
 
    ![](/help/assets/screenshot2028113929.png){width="50%" align="left"}
 
-   Ignore quaisquer pop-ups relacionados a preferências ou informações. Todos os formulários disponíveis serão exibidos.
+   Ignore qualquer pop-up relacionado às preferências ou informações. Todos os formulários disponíveis serão exibidos.
 
 
 ## Lição 2
@@ -134,9 +133,9 @@ Nesta lição, você atuará como um usuário empresarial e criará um adaptive 
 
    1. Clique em **Visualizar** para visualizar o formulário pela perspectiva do usuário final.
 
-   1. Preencha o formulário com dados de teste.
+   1. Preencha o formulário com dados fictícios.
 
-   1. Enviar o formulário.
+   1. Envie o formulário.
       ![](/help/assets/screenshot2028125729.png)
 
    1. Na guia Solicitar compartimento, verifique os dados enviados.
@@ -225,6 +224,13 @@ Configure o repositório local do tema:
 
      ![](/help/assets/screenshot2028116429.png){width="50%" align="left"}
 
+1. Criar um usuário local no ambiente AEM.
+
+   >[!NOTE]
+   > Para criar um usuário local:
+   > Ir para `AEM Home` > `Tools` > `Security` > `Users`
+   > Certifique-se de que o usuário é membro do grupo de usuários de formulários.
+
 
 1. Na janela do prompt de comando, execute o seguinte comando:
 
@@ -247,7 +253,10 @@ Configure o repositório local do tema:
 
    ![](/help/assets/screenshot2028117229.png)
 
-   Depois que o comando acima for executado, aguarde a mensagem `webpack compiled`. O formulário é exibido em uma guia do navegador.
+   Depois que o comando acima for executado, aguarde o `webpack compiled` e você será redirecionado para uma página de logon do AEM.
+
+1. Clique em **Fazer logon localmente (somente tarefas de administrador)** na página de login do AEM.
+1. Insira as credenciais para o usuário local criado e o formulário será exibido em uma guia do navegador.
 
    >[!NOTE]
    >
