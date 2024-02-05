@@ -5,10 +5,10 @@ description: Crie formulários envolventes usando componentes principais e a tec
 seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
-source-git-commit: 428416d61f236396449d26df208bf284a1ad162f
+source-git-commit: bcc51bcae3b26cf20e7c0b5b75935bf69a991731
 workflow-type: tm+mt
 source-wordcount: '2452'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -84,9 +84,9 @@ Nesta lição, você atuará como um usuário empresarial e criará um adaptive 
 1. Crie um ponto de acesso de envio para o formulário:
 
    1. Abra <https://requestbin.com/> em uma nova guia do navegador.
+   1. Clique em **Criar um compartimento público** e copie a URL do ponto de acesso.
       ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
 
-   1. Clique em **Criar um compartimento público** e copie a URL do ponto de acesso.
       ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
 
 1. Crie um formulário adaptável usando a interface do assistente:
@@ -103,8 +103,7 @@ Nesta lição, você atuará como um usuário empresarial e criará um adaptive 
    1. Clique na guia **Estilo** e selecione o tema **wknd-theme**, conforme mostrado abaixo:
       ![](/help/assets/screenshot202023-03-0120at206.09.2320pm.png)
 
-   1. Clique na guia **Envio**, selecione o cartão **Enviar para o ponto de acesso REST** e especifique o compartimento público na
-      **URL do campo da solicitação POST**, conforme mostrado abaixo:
+   1. Clique em **Envio** e selecione a guia **Enviar para ponto de extremidade REST** e especifique o compartimento público no **URL da solicitação POST** conforme mostrado abaixo:
       ![](/help/assets/screenshot202023-03-0120at206.09.5320pm.png)
 
    1. Clique em **Criar**. Especifique um nome e um título para o formulário. Por exemplo, **registro**. Clique em **Criar**.
@@ -115,10 +114,6 @@ Nesta lição, você atuará como um usuário empresarial e criará um adaptive 
    1. Arraste e solte componentes do navegador Componentes para criar um formulário, semelhante ao seguinte:
 
       ![](/help/assets/screenshot2028115129.png){width="50%" align="left"}
-
-
-
-
 
 1. Adicionar validações ao formulário:
 
@@ -242,7 +237,7 @@ Configure o repositório local do tema:
 
    >[!NOTE]
    >
-   > * Se receber uma mensagem solicitando a atualização do npm por meio do comando `npm notice Run npm nstall -g npm@9.6.0`, ignore a mensagem.
+   > * Se você receber uma mensagem solicitando a atualização do npm por meio do `npm notice Run npm nstall -g npm@9.6.0` ignorar a mensagem.
    > * Não execute outros comandos de npm, a menos que seja instruído na pasta de trabalho.
 
 1. Em seguida, execute o seguinte comando para visualizar o formulário.
