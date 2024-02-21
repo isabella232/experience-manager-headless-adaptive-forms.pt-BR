@@ -5,10 +5,10 @@ user-guide-description: Documentação dos formulários adaptáveis do Adobe Exp
 feature: Adaptive Forms
 role: Developer
 hide: false
-source-git-commit: b1e62aa73d5f442c8d025202f3bad31c0f82a113
+source-git-commit: 6fbc8605163c5f5415cadf5c19c96e1f68a23841
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 5%
+source-wordcount: '138'
+ht-degree: 4%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 5%
 # Formulários adaptáveis do Adobe Experience Manager Headless {#using}
 
 + [Visão geral](overview.md)
++ [Teste de visão geral](overview-testing.md)
 + [Arquitetura](architecture.md)
 + Configuração rápida {#quick-setup}
    + [Ativar o Forms adaptável headless no AEM 6.5 Forms](enable-headless-adaptive-forms-and-core-components.md)
