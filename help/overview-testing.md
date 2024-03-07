@@ -9,7 +9,8 @@ level: Beginner, Intermediate
 keywords: CMS headless, formulários adaptáveis, interface do usuário headless, CMS headful, assistentes de voz, alexa, chatbots, arquitetura WhatsApp
 hide: true
 hidefromtoc: true
-source-git-commit: 78ae6bc3e390d6a8e46d10d3ad3580c4268bf4ed
+exl-id: f6a383ea-684b-479d-a15f-8ebced75635e
+source-git-commit: 7516095c2074b0b3b5300d75dc9624beb7ffb3f6
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 15%
@@ -32,6 +33,13 @@ Os formulários adaptáveis headless ajudam a:
 Além disso, você tem a liberdade de desenvolver seus próprios componentes para renderizar um formulário usando qualquer estrutura de interface do usuário e linguagem de programação de sua escolha. Você também pode usar os componentes do React disponíveis prontos para uso para renderizar um formulário adaptável headless.
 
 ## Principais recursos
+
+<div>
+
+<iframe src="https://new.express.adobe.com/published/urn:aaid:sc:AP:8043685e-6c54-471a-a2ee-b8fcd357668f?promoid=Y69SGM5H&mv=other" style="width:100%; height:100vh; border:none;"></iframe>
+
+</div>
+
 
 <!-- 
 
